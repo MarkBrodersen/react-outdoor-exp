@@ -3,7 +3,7 @@ import Home from "./Home";
 const App = () => {
   return (
     <div>
-      <Home />
+      <h1></h1>
     </div>
   );
 };
