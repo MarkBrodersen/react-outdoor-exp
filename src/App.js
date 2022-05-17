@@ -1,10 +1,9 @@
-/** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react";
+import Home from "./Home";
 
 const App = () => {
   return (
     <div>
-      <div></div>
+      <Home />
     </div>
   );
 };
