@@ -1,9 +1,11 @@
-import Home from "./Home";
+import Travel from "./Travel";
+import { useState, useEffect } from "react";
 
 const App = () => {
   return (
     <div>
-      <h1></h1>
+      <div></div>
+      {data && <Travel data={data.section} />}
     </div>
   );
 };
