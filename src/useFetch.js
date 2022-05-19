@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import TravelComponent from "./TravelComponent";
+import { useState, useEffect } from "react";
 
-const useFetch = (url) => {
+const Fetch = (url) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -9,10 +10,9 @@ const useFetch = (url) => {
         return res.json();
       })
       .then((data) => {
-        setData(data.sections);
+        setData(data);
       });
-  }, [url]);
-  return { data };
+    return data;
+  }, []);
 };
-
-export default useFetch;
+export default Fetch;

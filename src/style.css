@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pageContainer {
+  background-color: rgba(128, 128, 128, 0.2);
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr) minmax(auto, 6.25%);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    ". travel travel travel travel travel . header header header header header header header header ."
+    ". noget noget noget noget noget noget noget noget noget noget noget noget noget noget noget";
+}
+.container {
+  background-color: white;
+}
+.image-width img {
+  width: 5%;
+}
+.travel {
+  width: 20%;
+  height: 500px;
+  grid-area: travel;
+}
+.travel article {
+  display: flex;
+  flex-direction: column;
+}
+.travel p {
+}
+.travel h2 {
+}
+.outdoor {
+  grid-area: header;
+}
+.outdoor p {
+}
+.outdoor h2 {
+}
+.outdoor img {
+}
+.outdoor span {
+}
+.outdoor article {
+}
+.delivery {
+  display: flex;
+  flex-direction: column;
+}
+.delivery p {
+}
+.delivery h2 {
+}
+.delivery img {
+}
+.delivery span {
+}
+.delivery article {
+}
+.parcels {
+  display: flex;
+  flex-direction: column;
+}
+.parcels p {
+}
+.parcels h2 {
+}
+.parcels img {
+}
+.parcels span {
+}
+.parcels article {
+}
+.Quality {
+  display: flex;
+  flex-direction: column;
+}
+.Quality p {
+}
+.Quality h2 {
+}
+.Quality img {
+}
+.Quality span {
+}
+.Quality article {
+}
+.Service {
+  display: flex;
+  flex-direction: column;
+}
+.Service p {
+}
+.Service h2 {
+}
+.Service img {
+}
+.Service span {
+}
+.Service article {
+}
+.off-the-grid {
+  display: flex;
+  flex-direction: column;
+}
+.off-the-grid p {
+}
+.off-the-grid h2 {
+}
+.off-the-grid img {
+}
+.off-the-grid span {
+}
+.off-the-grid article {
+}
+.triangles {
+  display: flex;
+  flex-direction: column;
+}
+.triangles p {
+}
+.triangles h2 {
+}
+.triangles img {
+}
+.triangles span {
+}
+.triangles article {
+}
+.in-depth-architecture {
+  display: flex;
+  flex-direction: column;
+}
+.in-depth-architecture p {
+}
+.in-depth-architecture h2 {
+}
+.in-depth-architecture img {
+}
+.in-depth-architecture span {
+}
+.in-depth-architecture article {
+}
+.must-see {
+  display: flex;
+  flex-direction: column;
+}
+.must-see p {
+}
+.must-see h2 {
+}
+.must-see img {
+}
+.must-see span {
+}
+.must-see article {
+}
+.lifestyle {
+  display: flex;
+  flex-direction: column;
+}
+.lifestyle p {
+}
+.lifestyle h2 {
+}
+.lifestyle img {
+}
+.lifestyle span {
+}
+.lifestyle article {
+}
+.fashion {
+  display: flex;
+  flex-direction: column;
+}
+.fashion p {
+}
+.fashion h2 {
+}
+.fashion img {
+}
+.fashion span {
+}
+.fashion article {
+}
+.nature {
+  display: flex;
+  flex-direction: column;
+}
+.nature p {
+}
+.nature h2 {
+}
+.nature img {
+}
+.nature span {
+}
+.nature article {
+}
+.animalKingdom {
+  display: flex;
+  flex-direction: column;
+}
+.animalKingdom p {
+}
+.animalKingdom h2 {
+}
+.animalKingdom img {
+}
+.animalKingdom span {
+}
+.animalKingdom article {
+}
+.technology {
+  display: flex;
+  flex-direction: column;
+}
+.technology p {
+}
+.technology h2 {
+}
+.technology img {
+}
+.technology span {
+}
+.technology article {
+}
+.explore {
+  display: flex;
+  flex-direction: column;
+}
+.explore p {
+}
+.explore h2 {
+}
+.explore img {
+}
+.explore span {
+}
+.explore article {
+}
+.africa {
+  display: flex;
+  flex-direction: column;
+}
+.africa p {
+}
+.africa h2 {
+}
+.africa img {
+}
+.africa span {
+}
+.africa article {
+}
+.architecture {
+  display: flex;
+  flex-direction: column;
+}
+.architecture p {
+}
+.architecture h2 {
+}
+.architecture img {
+}
+.architecture span {
+}
+.architecture article {
+}
+.leisure {
+  display: flex;
+  flex-direction: column;
+}
+.leisure p {
+}
+.leisure h2 {
+}
+.leisure img {
+}
+.leisure span {
+}
+.leisure article {
+}
+.greenery {
+  display: flex;
+  flex-direction: column;
+}
+.greenery p {
+}
+.greenery h2 {
+}
+.greenery img {
+}
+.greenery span {
+}
+.greenery article {
+}
+.beaches {
+  display: flex;
+  flex-direction: column;
+}
+.beaches p {
+}
+.beaches h2 {
+}
+.beaches img {
+}
+.beaches span {
+}
+.beaches article {
+}
+.newsDigest__tech {
+  display: flex;
+  flex-direction: column;
+}
+.newsDigest__tech p {
+}
+.newsDigest__tech h2 {
+}
+.newsDigest__tech img {
+}
+.newsDigest__tech span {
+}
+.newsDigest__tech article {
+}
+.newsDigest__nature {
+  display: flex;
+  flex-direction: column;
+}
+.newsDigest__nature p {
+}
+.newsDigest__nature h2 {
+}
+.newsDigest__nature img {
+}
+.newsDigest__nature span {
+}
+.newsDigest__nature article {
+}
+.newsDigest__design {
+  display: flex;
+  flex-direction: column;
+}
+.newsDigest__design p {
+}
+.newsDigest__design h2 {
+}
+.newsDigest__design img {
+}
+.newsDigest__design span {
+}
+.newsDigest__design article {
+}
+.newsDigest__development {
+  display: flex;
+  flex-direction: column;
+}
+.newsDigest__development p {
+}
+.newsDigest__development h2 {
+}
+.newsDigest__development img {
+}
+.newsDigest__development span {
+}
+.newsDigest__development article {
+}
+.TNYT__first {
+  display: flex;
+  flex-direction: column;
+}
+.TNYT__first p {
+}
+.TNYT__first h2 {
+}
+.TNYT__first img {
+}
+.TNYT__first span {
+}
+.TNYT__first article {
+}
+.TNYT__second {
+  display: flex;
+  flex-direction: column;
+}
+.TNYT__second p {
+}
+.TNYT__second h2 {
+}
+.TNYT__second img {
+}
+.TNYT__second span {
+}
+.TNYT__second article {
+}

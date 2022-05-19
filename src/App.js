@@ -1,9 +1,11 @@
-import Header from "./Header";
+import Travel from "./Travel";
+import { useState, useEffect } from "react";
 
 const App = () => {
   return (
     <div>
-      <Header sections={sections} />
+      <div></div>
+      {data && <Travel data={data.section} />}
     </div>
   );
 };
